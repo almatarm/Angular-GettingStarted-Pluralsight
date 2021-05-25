@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
-import { ProductListComponent } from 'src/products/product-list.component';
-import { SpacePipe } from 'src/shared/convert-to-spaces.pipe';
+import { ProductListComponent } from 'src/app/products/product-list.component';
+import { SpacePipe } from 'src/app/shared/convert-to-spaces.pipe';
 
 import { AppComponent } from './app.component';
 
