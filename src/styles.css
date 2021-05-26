@@ -3,7 +3,7 @@
 @import "~font-awesome/css/font-awesome.min.css";
 
 div.card-header {
-  font-size: large;
+ font-size: large;
 }
 
 div.card {
@@ -12,4 +12,4 @@ div.card {
 
 .table {
   margin-top: 10px
- }
+}
