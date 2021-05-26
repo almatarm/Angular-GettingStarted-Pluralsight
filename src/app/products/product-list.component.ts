@@ -47,7 +47,6 @@ export class ProductListComponent implements OnInit, OnDestroy {
     this.sub.unsubscribe();
   }
 
-
   performFilter(filterBy: string): IProduct[] {
     filterBy = filterBy.toLocaleLowerCase();
     return this.products.filter((product: IProduct) =>
